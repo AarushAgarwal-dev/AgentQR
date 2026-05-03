@@ -218,19 +218,6 @@ Compare AAPL vs MSFT             → side-by-side comparison
 - **Pinecone dimension mismatch** — if you previously used a 1024-dim index (Voyage AI), the app will automatically delete and recreate it at 384-dim on startup
 - **Windows + Uvicorn** — run single-worker mode (`uvicorn main:app` without `--workers N`); multi-worker mode is unstable on Windows due to multiprocessing fork issues
 - **SEC EDGAR rate limits** — EDGAR allows ~10 req/s; the ingestion pipeline respects this but large batches may be slow
-
----
-
-## Team
-
-| Name | Role |
-|---|---|
-| Ayush Agarwal | Team Lead |
-| Aarush Agarwal | Full-Stack Development |
-| Dhruv Jhamb | Member |
-| Hamza Adwan | Member |
-| Taymur Faruqui | Member |
-
 ---
 
 ## License
